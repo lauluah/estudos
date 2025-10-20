@@ -1,6 +1,7 @@
 import ex2.CatalogoFilmes;
 import ex2.Filme;
 import ex5.Exercicio5;
+import ex5.ExercicioUpDown;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +26,6 @@ public class Main {
 //        catalogoFilmes.listarFilmes();
 
         Exercicio5.validatePin("1");
-
+        ExercicioUpDown.arrange("after be arrived two My so");
     }
 }
