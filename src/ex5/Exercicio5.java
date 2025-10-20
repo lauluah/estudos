@@ -1,14 +1,7 @@
 package ex5;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-public class ex5 {
+public class Exercicio5 {
         public static boolean validatePin(String pin) {
-            Pattern pattern = Pattern.compile("\\d{5,6}");
-            Matcher matcher = pattern.matcher(pin);
-            
-            return true;
+            return pin.matches("\\d{4}") || pin.matches("\\d{6}");
         }
-
 }

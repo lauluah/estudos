@@ -3,8 +3,7 @@ package exLambda;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class TestStreamLambda {
 
@@ -31,7 +30,7 @@ public class TestStreamLambda {
 
         //ex3
         List<String> palavras2 = Arrays.asList("sol", "montanha", "rio", "computador", "céu");
-        long palavrasMais5Letras = palavras.stream().filter(p -> p.length() >= 5).count();
+        long palavrasMais5Letras = palavras2.stream().filter(p -> p.length() >= 5).count();
         System.out.println(palavrasMais5Letras);
 
     }
