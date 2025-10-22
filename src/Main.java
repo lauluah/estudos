@@ -1,7 +1,10 @@
-import ex2.CatalogoFilmes;
-import ex2.Filme;
+import ex5.CountOfPositives;
 import ex5.Exercicio5;
 import ex5.ExercicioUpDown;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +30,6 @@ public class Main {
 
         Exercicio5.validatePin("1");
         ExercicioUpDown.arrange("after be arrived two My so");
+
     }
 }
