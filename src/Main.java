@@ -1,10 +1,13 @@
 import ex5.CountOfPositives;
 import ex5.Exercicio5;
 import ex5.ExercicioUpDown;
+import ex5.Solution;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static ex5.Solution.solution;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,5 +34,8 @@ public class Main {
         Exercicio5.validatePin("1");
         ExercicioUpDown.arrange("after be arrived two My so");
 
+        int[] a = {1, 2, 3};
+        int[] b = {2, 4, 6};
+        System.out.println(solution(a, b));
     }
 }
